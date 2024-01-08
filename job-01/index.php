@@ -1,7 +1,7 @@
 <?php
 
 // Inclure la classe Product
-require_once 'job-01/Product.php';
+require_once 'classe/Product.php';
 
 // Instanciation de la classe Product
 $product = new Product(1, 'T-shirt', ['https://picsum.photos/200/300'], 1000, 'A beautiful T-shirt', 10, new DateTime(), new DateTime());
@@ -18,3 +18,5 @@ $product->setQuantity(15);
 // Affichage des propriétés après modification
 echo "\nAprès modification :\n";
 var_dump($product);
+
+?>
